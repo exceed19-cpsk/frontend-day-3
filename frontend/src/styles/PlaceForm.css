@@ -1,0 +1,33 @@
+.place-form-container {
+    width: 50%;
+    padding: 4rem;
+}
+
+.place-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.form-field > label {
+    padding: .5rem;
+    min-width: 10rem;
+}
+
+.input-field {
+    border: black solid;
+    border-radius: .5rem;
+}
+
+.radio-field {
+    display: flex;
+    align-items: center;
+}

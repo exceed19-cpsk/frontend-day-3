@@ -1,0 +1,22 @@
+.restaurant-container {
+    height: 100%;
+}
+
+.restaurant-page-content {
+    background-color: #EDF0F2;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.detail-box {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+}

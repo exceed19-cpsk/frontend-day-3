@@ -1,0 +1,55 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.name {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.gray {
+    color: gainsboro;
+}
+
+.rating-box {
+    width: 4rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+.excellent-rating-color {
+    background-color: #870C0B;
+}
+
+.good-rating-color {
+    background-color: #CD1201;
+}
+
+.fine-rating-color {
+    background-color: #e87d37;
+}
+
+.suck-rating-color {
+    background-color: black;
+}
+
+.card > img {
+    width: 15rem;
+    height: 15rem;
+}

@@ -1,0 +1,17 @@
+.button {
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    min-width: 4rem;
+    max-width: 6rem;
+    max-height: 4rem;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    outline: solid black;
+    cursor: pointer;
+  }

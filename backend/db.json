@@ -1,0 +1,49 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Al Saray",
+      "category": "restaurant",
+      "description": "ร้านอาหารอินเดียเด็ดประจำศาลาแดง ไปสะดวกติด BTS",
+      "location": "ศาลาแดง",
+      "image": "/src/assets/al-saray.jpeg",
+      "rating": 4.6
+    },
+    {
+      "id": 2,
+      "name": "ร้านพี่กร",
+      "category": "restaurant",
+      "description": "อร่อยมาก เดินไกลมาก",
+      "location": "ตรงข้าม Kazest",
+      "image": "/src/assets/p-korn.jpeg",
+      "rating": 4.4
+    },
+    {
+      "id": 3,
+      "name": "วัวล้วนๆ",
+      "category": "cafe",
+      "description": "ก็ร้านขายนมปั่นอ่ะ",
+      "location": "บาร์ใหม่ มหาวิทยาลัยเกษตรแฟร์",
+      "image": "/src/assets/cow-only.webp",
+      "rating": 3
+    },
+    {
+      "name": "Dotcom",
+      "location": "KU",
+      "category": "cafe",
+      "description": "Best place to chill",
+      "imageUrl": "../dotcom.png",
+      "rating": "5",
+      "id": 4
+    },
+    {
+      "name": "ร้านรุ่งแสง",
+      "location": "อารีย์",
+      "category": "restaurant",
+      "description": "ข้าวมันไก่เด็ดอารีย์กินง่ายๆ",
+      "imageUrl": "IDK",
+      "rating": "4",
+      "id": 5
+    }
+  ]
+}

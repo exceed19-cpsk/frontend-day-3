@@ -1,0 +1,12 @@
+.food-banner 
+{
+    height: 20rem;
+    width: 100%;
+}
+
+.food-banner > img {
+    object-fit: cover;
+    object-position: right center;
+    height: 100%;
+    width: 100%;
+}

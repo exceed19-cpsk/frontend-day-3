@@ -1,0 +1,21 @@
+.nav-container {
+  width: 100%;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 3rem;
+  justify-content: space-between;
+	margin: 0;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.logo {
+	height: 100px;
+	width: 100px;
+}
