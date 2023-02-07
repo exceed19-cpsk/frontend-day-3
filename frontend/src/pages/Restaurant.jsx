@@ -6,13 +6,6 @@ import '../styles/Restaurant.css'
 
 const Restaurant = () => {
     const [restaurant, setRestaurant] = useState({})
-    const { id } = useParams()
-
-    useEffect(() => {
-        getPlace(id).then(data => setRestaurant(data))
-
-        return () => { }
-    }, [])
 
     return (
         <div className='cafe-container'>

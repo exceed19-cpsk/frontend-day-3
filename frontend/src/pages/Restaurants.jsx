@@ -8,10 +8,7 @@ const Restaurants = () => {
 	const [restaurants, setRestaurants] = useState([])
 
 	useEffect(() => {
-		getPlaces().then(data => {
-			const filterRestaurant = data.filter(d => d.category === "restaurant")
-			setRestaurants(filterRestaurant)
-		})
+		// TODO: ดึงข้อมูลสถานที่มาแล้วกรองเอาเฉพาะที่เป็นร้านอาหาร
 
 		return () => { }
 	}, [])
@@ -21,7 +18,10 @@ const Restaurants = () => {
 			<CategoryPanel />
 			<div className="restaurant-page-content">
 				<h2>ร้านอาหาร</h2>
-				{restaurants.map(restaurant => <Card {...restaurant} />)}
+
+				{/* TODO : เอาข้อมูลร้านอาหารมาแสดง */}
+
+				
 			</div>
 		</div>
 	)

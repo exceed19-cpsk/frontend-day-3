@@ -6,13 +6,6 @@ import '../styles/Cafe.css'
 
 const Cafe = () => {
   const [cafe, setCafe] = useState({})
-  const { id } = useParams()
-
-  useEffect(() => {
-    getPlace(id).then(data => setCafe(data))
-  
-    return () => {}
-  }, [])
   
   return (
 		<div className='cafe-container'>

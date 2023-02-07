@@ -15,14 +15,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/restaurants" element={<Restaurants />} />
-        <Route path="/cafes" element={<Cafes />}/>
-        <Route path="/cafe/:id" element={<Cafe />} />
-        <Route path="/restaurant/:id" element={<Restaurant />} />
-        <Route path="/add" element={<AddPlace />} />
-      </Routes>
+      {/* TODO: เพิ่ม Route ไปหน้าต่างๆ */}
+      <Home />
+      
     </>
   )
 }
